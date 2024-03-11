@@ -140,6 +140,11 @@ nav .fa{
         overflow: hidden;
     }
 
+    .text-box{
+        justify-content: center;
+        align-items: center;
+    }
+
 
 }
 
