@@ -102,6 +102,46 @@ nav .fa{
     display: none;
 }
 
+.footer{
+    font-size: small;
+    font-weight: 200;
+    font-style: normal;
+    background-color: #f44336; 
+    color: white; 
+    text-align: center; 
+    padding: 20px;
+}
+
+.experiencia{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experiencia-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.experiencia-col img{
+    width: 100%;
+}
+
+.experiencia-col h1{
+    padding-top: 0;
+}
+
+.experiencia-col p{
+    padding: 15px 0 25px;
+}
+
+
 @media(max-width: 700px){
     .text-box h1{
         font-size: 20px;
