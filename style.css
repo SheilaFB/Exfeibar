@@ -11,6 +11,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    margin-bottom: 30px;
 }
 
 nav{
@@ -103,6 +104,7 @@ nav .fa{
 }
 
 .footer{
+    width: 100%;
     font-size: small;
     font-weight: 200;
     font-style: normal;
@@ -110,12 +112,12 @@ nav .fa{
     color: white; 
     text-align: center; 
     padding: 20px;
+    margin-top: 20px;
 }
 
 .experiencia{
     width: 80%;
     margin: auto;
-    padding-top: 80px;
 }
 
 .row{
@@ -126,19 +128,16 @@ nav .fa{
 
 .experiencia-col{
     flex-basis: 48%;
-    padding: 30px 2px;
+    padding: 20px 2px;
 }
 
 .experiencia-col img{
     width: 100%;
 }
 
-.experiencia-col h1{
-    padding-top: 0;
-}
-
 .experiencia-col p{
-    padding: 15px 0 25px;
+    padding: 15px 0 15px;
+    text-align: justify;
 }
 
 
@@ -189,5 +188,18 @@ nav .fa{
         border: none;
     }
 
+    .row{
+        display: block;
+    }
+
+    .compromiso-section{
+        display:flex;
+        flex-flow: column;
+    }
+
+    #a{order:2;}
+    #b{order:1;}
+
+    
 }
 
